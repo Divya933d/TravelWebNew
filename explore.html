@@ -1,0 +1,133 @@
+<!-- explore.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Destinations</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+    
+      .explore__header {
+        background-image: linear-gradient(to top, var(--primary-color), transparent), url("assets/explore-header.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 10rem 1rem 5rem;
+        text-align: center;
+        color: var(--white);
+      }
+
+      .explore__header h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 1rem;
+      }
+
+      .destinations {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        padding: 5rem 1rem;
+        max-width: var(--max-width);
+        margin: auto;
+      }
+
+      .destination__card {
+        background-color: var(--primary-color-light);
+        border-radius: 1rem;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+      }
+
+      .destination__card:hover {
+        transform: translateY(-10px);
+      }
+
+      .destination__card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .destination__content {
+        padding: 1rem;
+        color: var(--white);
+      }
+
+      .destination__content h3 {
+        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+        color: var(--secondary-color);
+      }
+
+      .destination__content p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        color: var(--extra-light);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="index.html">Travel.</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="index.html#home">Home</a></li>
+            <li class="link"><a href="index.html#about">About Us</a></li>
+            <li class="link"><a href="index.html#discover">Discover</a></li>
+            <li class="link"><a href="index.html#blog">Blog</a></li>
+            <li class="link"><a href="index.html#journals">Journals</a></li>
+            <li class="link"><a href="index.html#gallery">Gallery</a></li>
+            <li class="link"><a href="index.html#contact">Contact</a></li>
+            <li class="link search">
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="explore__header">
+      <h1>Discover Top Destinations</h1>
+      <p>Plan your perfect trip around the globe with our curated travel picks.</p>
+    </section>
+
+    <section class="destinations">
+      <div class="destination__card">
+        <img src="assets/paris.webp" alt="Paris, France" />
+        <div class="destination__content">
+          <h3>Paris, France</h3>
+          <p>The city of lights and love, home to the Eiffel Tower and exquisite cuisine.</p>
+        </div>
+      </div>
+      <div class="destination__card">
+        <img src="assets/bali.webp" alt="Bali, Indonesia" />
+        <div class="destination__content">
+          <h3>Bali, Indonesia</h3>
+          <p>Tropical beaches, vibrant culture, and lush rice terraces await you.</p>
+        </div>
+      </div>
+      <div class="destination__card">
+        <img src="assets/nyc.webp" alt="New York City, USA" />
+        <div class="destination__content">
+          <h3>New York City, USA</h3>
+          <p>The city that never sleeps—full of skyline views, Broadway, and endless energy.</p>
+        </div>
+      </div>
+      <div class="destination__card">
+        <img src="assets/kyoto.webp" alt="Kyoto, Japan" />
+        <div class="destination__content">
+          <h3>Kyoto, Japan</h3>
+          <p>Experience traditional temples, cherry blossoms, and timeless beauty.</p>
+        </div>
+      </div>
+      <!-- Add more destination cards as needed -->
+    </section>
+  </body>
+</html>

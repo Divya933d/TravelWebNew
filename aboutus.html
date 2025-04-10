@@ -1,0 +1,141 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Travel</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <style>
+    .about__header {
+      background-image: linear-gradient(to top, var(--primary-color), transparent), url("assets/about-header.jpg");
+      background-size: cover;
+      background-position: center;
+      padding:  2rem;
+      text-align: center;
+      color: var(--white);
+    }
+
+    .about__header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+
+    .about__content {
+      max-width: var(--max-width);
+      margin: auto;
+      padding: 4rem 1rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      color: var(--white);
+    }
+
+    .about__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .about__text h2 {
+      font-size: 2rem;
+      color: var(--secondary-color);
+      margin-bottom: 1rem;
+    }
+
+    .about__text p {
+      font-size: 1rem;
+      color: var(--extra-light);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .about__image img {
+      width: 100%;
+      border-radius: 1rem;
+      object-fit: cover;
+    }
+
+    .about__mission {
+      background-color: var(--primary-color-light);
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    .about__mission h2 {
+      color: var(--secondary-color);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .about__mission p {
+      max-width: 800px;
+      margin: auto;
+      color: var(--extra-light);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .about__content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__logo"><a href="index.html">Travel.</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="index.html#home">Home</a></li>
+          <li class="link"><a href="index.html#about">About Us</a></li>
+          <li class="link"><a href="index.html#explore">Discover</a></li>
+          <li class="link"><a href="index.html#blog">Blog</a></li>
+          <li class="link"><a href="index.html#journals">Journals</a></li>
+          <li class="link"><a href="index.html#gallery">Gallery</a></li>
+          <li class="link"><a href="index.html#contact">Contact</a></li>
+          <li class="link search">
+            <span><i class="ri-search-line"></i></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about__header">
+    <h1>About Travel</h1>
+    <p>Empowering dreamers to discover the world, one journey at a time.</p>
+  </section>
+
+  <section class="about__content">
+    <div class="about__text">
+      <h2>Who We Are</h2>
+      <p>
+        Travel is a global travel company started in 2025 with a mission to make the world more accessible and exciting for all. What began as a passion project by a group of backpackers is now a leading brand offering curated travel experiences in over 60 countries.
+      </p>
+      <p>
+        We combine technology, local expertise, and a love for culture to provide immersive journeys tailored to your personality, interests, and dreams. Whether you're chasing northern lights or ancient ruins, we've got the perfect itinerary for you.
+      </p>
+    </div>
+    <div class="about__image">
+      <img src="https://www.allstarvip.com/wp-content/uploads/2021/02/Corporate-Travel-Services.jpeg" alt="Our Team" />
+    </div>
+  </section>
+
+  <section class="about__mission">
+    <h2>Our Mission</h2>
+    <p>
+      At Travel, our mission is to ignite the spirit of adventure in everyone.
+      We believe that travel isn't just about places—it's about the people you meet,
+      the cultures you embrace, and the stories you create. With a focus on sustainability,
+      affordability, and authenticity, we aim to transform ordinary trips into extraordinary memories.
+    </p>
+  </section>
+
+</body>
+</html>
