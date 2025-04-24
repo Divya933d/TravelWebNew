@@ -1,7 +1,7 @@
 {
     "name": "Travel",
     "short_name": "Travel",
-    "start_url": "/",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ff4d4d",
