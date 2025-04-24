@@ -1,5 +1,5 @@
 {
-    "name": "Travel",
+    "name": "Travel Website",
     "short_name": "Travel",
     "start_url": "/index.html",
     "display": "standalone",
@@ -10,7 +10,7 @@
       {
         "src": "icons/banner.webp",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/webp"
       }
     ]
   }
