@@ -1,7 +1,7 @@
 {
     "name": "Travel Website",
     "short_name": "Travel",
-    "start_url": "/index.html",
+    "start_url": "https://travel-web-new.vercel.app/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ff4d4d",
