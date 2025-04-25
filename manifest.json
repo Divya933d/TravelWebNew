@@ -1,7 +1,7 @@
 {
     "name": "Travel Website",
     "short_name": "Travel",
-    "start_url": "index.html",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ff4d4d",
@@ -9,7 +9,7 @@
     "icons": [
       {
         "src": "icons/banner.webp",
-        "sizes": "192x192",
+        "sizes": "512x512",
         "type": "image/webp"
       }
     ]
